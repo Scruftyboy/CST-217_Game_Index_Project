@@ -1,0 +1,42 @@
+<%- include("partials/header") %>
+
+<main class="content">
+  <h2><%= pageTitle %></h2>
+  <!-- page content -->
+  <link rel="stylesheet" href="style.css">
+  
+    <form action="/set-to-inprogress" method="POST">
+        <label for="title">Enter Exact Title of Game:</label>
+        <input type="text" id="title" name="title" placeholder="Enter Started Game">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+  <dl>
+
+  <div class="game-grid">
+  <% Object.keys(games_const).forEach(function(key){ %>
+    <% if ( games_const[key].status === "backlog") { %>
+      <div class="game-card">
+        <img class="game-cover" src="<%= games_const[key].cover %>" alt="<%= games_const[key].title %>">
+        <p class="game-title"><%= games_const[key].title %></p>
+      </div>
+    <% } %>
+  <% }); %>
+  </div>
+  
+  </dl>
+
+    <form action="/added-game" method="POST">
+        <label for="title">Add Game Title:</label>
+        <input type="text" id="title" name="title" placeholder="Enter Game Title">
+        <br><br>
+        <label for="cover">Add Game Cover Image:</label>
+        <input type="text" id="cover" name="cover" placeholder="Enter Image URL">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</main>
+
+<%- include("partials/footer") %>

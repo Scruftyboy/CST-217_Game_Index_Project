@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Bloodborne",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/6/68/Bloodborne_Cover_Wallpaper.jpg",
+    "status": "inprogress"
+  },
+  {
+    "title": "Crysis 3",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/20/Crysis_3_cover.jpg",
+    "status": "backlog"
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Dark Souls",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dark_Souls_Cover_Art.jpg",
+    "status": "backlog"
+  },
+  {
+    "title": "Dark Souls 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/ed/Dark_Souls_II_cover.jpg",
+    "status": "backlog"
+  },
+  {
+    "title": "Dark Souls 3",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/bb/Dark_souls_3_cover_art.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Death Stranding 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/e/e0/Death_Stranding_2_Icon.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Elden Ring",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b9/Elden_Ring_Box_art.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Elden Ring Nightreign",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/f/f0/Elden_Ring_Nightreign_cover_art.png",
+    "status": "inprogress"
+  },
+  {
+    "title": "Half-Life 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Halo 2",
+    "cover": "https://halo.wiki.gallery/images/thumb/f/ff/Halo2-Cover-Large.jpg/450px-Halo2-Cover-Large.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Hollow Knight",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Hollow_Knight_first_cover_art.webp/274px-Hollow_Knight_first_cover_art.webp.png",
+    "status": "backlog"
+  },
+  {
+    "title": "Hollow Knight Silksong",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/05/Silksong.jpg",
+    "status": "backlog"
+  },
+  {
+    "title": "Nier: Automata",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/2/21/Nier_Automata_cover_art.jpg",
+    "status": "backlog"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+    "status": "inprogress"
+  },
+  {
+    "title": "The Witcher 3",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+    "status": "completed"
+  },
+  {
+    "title": "Warhammer 40,000: Rogue Trader",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1c/Warhammer_40%2C000_Rogue_Trader_cover_art.jpg",
+    "status": "inprogress"
+  },
+  {
+    "title": "Warhammer 40,000: Space Marine 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Warhammer_40%2C000_Space_Marine_2_cover_art.jpg",
+    "status": "completed"
+  }
+]

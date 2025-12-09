@@ -1,0 +1,25 @@
+<%- include("partials/header") %>
+
+<main class="content">
+  <h2><%= pageTitle %></h2>
+  <!-- page content -->
+  <link rel="stylesheet" href="style.css">
+  
+  <dl>
+  
+  <div class="game-grid">
+  <% Object.keys(games_const).forEach(function(key){ %>
+    <% if ( games_const[key].status === "completed") { %>
+      <div class="game-card">
+        <img class="game-cover" src="<%= games_const[key].cover %>" alt="<%= games_const[key].title %>">
+        <p class="game-title"><%= games_const[key].title %></p>
+      </div>
+    <% } %>
+  <% }); %>
+  </div>
+
+  </dl>
+
+</main>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,57 @@
+
+body {
+        background-color: #292e37;
+}
+
+header {
+  color: #ffffff; /* Hexadecimal color (red) */
+}
+
+.content {
+  font-size: 2em;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+p {
+  color: white; /* Named color */
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #0b72b9;
+}
+
+.game-cover {
+  max-width: 250px;
+  max-height: auto;
+  object-fit: contain;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.game-card {
+  text-align: center;
+}
+
+.game-title {
+  margin-top: 8px;
+  text-align: center;
+}
+
+main.content {
+  max-width: 68ch;
+  margin: 0 auto;
+  padding: 1rem;
+}
+

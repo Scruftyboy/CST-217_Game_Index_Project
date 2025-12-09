@@ -1,0 +1,14 @@
+<header>
+  <h1><%= siteTitle || "Game Index Project" %></h1>
+
+  <nav>
+    <a href="/"        class="<%= activePage === 'home' ? 'active' : '' %>">HOME</a> |
+    <a href="/completed"     class="<%= activePage === 'completed' ? 'active' : '' %>">COMPLETED</a> |
+    <a href="/inprogress"   class="<%= activePage === '' ? 'active' : '' %>">IN PROGRESS</a> |
+    <a href="/backlog"     class="<%= activePage === 'backlog' ? 'active' : '' %>">BACKLOG</a> |
+    <a href="/about"   class="<%= activePage === 'about' ? 'active' : '' %>">ABOUT</a> |
+    
+  </nav>
+  <hr>
+</header>
+
