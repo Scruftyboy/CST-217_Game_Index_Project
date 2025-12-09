@@ -4,3 +4,5 @@ This is my project for the class CST-217: Program for the web. It will allow use
 -------------------------------------------------------------------------------------------------------------------------------
 
 You can run the server locally using "node server.js"
+
+The public URL is this: https://cst-217-game-index-project.onrender.com/
